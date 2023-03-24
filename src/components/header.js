@@ -19,7 +19,7 @@ const Header = () => {
         <p><a href='#aboutme'>About me</a></p>
         <p><a href='#workhistory'>Work history</a></p>
         <p><a href='#socialmedia'>Social media</a></p>
-        <p><a href='https://medium.com/@mukembileviticus'>Blogs</a></p>
+        <p><a href='https://medium.com/@mukembileviticus'>Blog</a></p>
         </>
         }
     </div>

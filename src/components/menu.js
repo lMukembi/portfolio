@@ -11,7 +11,7 @@ const menu = ({close}) => {
             <p><a onClick={()=>close(false)} href='#aboutme'>About me</a></p>
             <p><a onClick={()=>close(false)} href='#workhistory'>Work history</a></p>
             <p><a onClick={()=>close(false)} href='#socialmedia'>Social media</a></p>
-            <p><a onClick={()=>close(false)} href='https://medium.com/@mukembileviticus'>Blogs</a></p>
+            <p><a onClick={()=>close(false)} href='https://medium.com/@mukembileviticus'>Blog</a></p>
         </div>
         <div className='menu_close' onClick={()=>close(false)}/>
     </div>

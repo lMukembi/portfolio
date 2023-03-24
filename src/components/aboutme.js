@@ -44,7 +44,7 @@ const aboutme = () => {
         <p>I love technology. I believe technology is changing the world at a rapid rate. Then WHY shouldn't I be part of the change?</p>
         <h3>Electric Cars Devotee.</h3>
         <p>I'm the greatest Nikola Tesla, Elon Musk, Tesla, BasiGo, and electric cars fan from Kenya. I believe this is the future.</p>
-        <p>I talk about Tesla electric cars at <a href="https://twitter.com/teslacarsonly">@TESLACARSONLY</a> & cars in Kenya at <a href="https://twitter.com/kenyacarsonly">@KENYACARSONLY</a> on Twitter.</p>
+        <p>I talk about Tesla electric cars at <a href="https://twitter.com/teslacarsonly">@teslacarsonly</a> & cars in Kenya at <a href="https://twitter.com/kenyacarsonly">@kenyacarsonly</a> on Twitter.</p>
         <h3>Entrepreneur.</h3>
         <p>My Entrepreneurship journey begun in 2018 immediately after completion of my high school studies. Since then I have several businesses and failed several times.</p>
         <p>My greatest breakthrough was Technaire.com, a technology reviews website. I sold the business while still young due to financial constraints.</p>
