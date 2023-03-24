@@ -1,0 +1,35 @@
+.menu{
+    position: absolute;
+    background-color: rgb(25, 25, 25);
+    z-index: 3;
+    width: 350px;
+    right: 0px;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    padding: 5px;
+}
+
+.close{
+    display: flex;
+    margin: 5px 5px auto auto;
+    font-size: 40px;
+}
+
+.menu p{
+    font-size: 35px;
+}
+
+.menu p a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu_close{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+}

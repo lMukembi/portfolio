@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(25, 25, 25);
+    padding: 5px;
+    border-radius: 3px;  
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.logo{
+    height: 50px;
+    width: 40px;
+    object-fit: contain;
+}
+
+.home_menu{
+    height: 40px;
+    width: 40px;
+}
+
+.left_side{
+    display: flex;
+}
+
+.right_side{
+    display: flex;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .header{
+        margin: auto 5px auto 5px;
+    }
+    .header p a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}

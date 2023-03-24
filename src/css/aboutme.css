@@ -1,0 +1,45 @@
+.about_me{
+    padding: 3px 1px;
+    height: 500px;
+    overflow-y: scroll;
+    background-color: rgb(25, 25, 25);
+    border-radius: 5px;
+}
+
+.about_me a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.mukembi{
+    background-color: rgb(35, 35, 35);
+    border-radius: 10px;
+    height: 300px;
+    width: 250px;
+    object-fit: contain;
+}
+
+.cv_button{
+    background-color: orangered;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+.cv_button a{
+    color: white;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .about_me{
+        margin: auto 5px auto 5px;
+        padding: 5px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}

@@ -1,0 +1,55 @@
+.works {
+    padding: 5px;
+}
+
+.works_header{
+    margin-left: 5px;
+}
+
+.works p{
+    background-color: rgb(25, 25, 25);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.work_cover{
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.jobs_button{
+    background-color: orangered;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.jobs_button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .works{
+        margin: auto 5px auto 5px;
+        display: flex;
+    }
+
+    .works p{
+        margin-right: 5px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}

@@ -1,0 +1,52 @@
+.intro{
+    padding: 1px 3px;
+    margin-bottom: 1rem;
+}
+
+.greetings{
+    font-style: italic;
+}
+
+.name{
+    color: orangered;
+    font-style: italic;
+}
+
+.call_me{
+    background-color: orangered;
+    padding: 10px 30px;
+    color: white;
+    margin-right: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.call_me a{
+    text-decoration: none;
+    color: white;
+}
+
+.email_me{
+    background-color: orangered;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.email_me a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .intro{
+        margin: 1rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}

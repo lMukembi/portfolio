@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/header"
+import Aboutme from "./components/aboutme"
+import Intro from "./components/intro"
+import Jobs from "./components/jobs"
+import Socialmedia from "./components/socialmedia"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Intro/>
+      <Aboutme/>
+      <Jobs/>
+      <Socialmedia/>
+      <p style={{fontStyle: "italic", textAlign:"center", fontSize:"13px"}}>Designed & built by Mukembi L.</p>
     </div>
   );
 }
